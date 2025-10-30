@@ -21,19 +21,21 @@ This portfolio includes:
 🔄 End-to-end **CI/CD pipelines** using GitHub Actions & Jenkins  
 📦 Infrastructure provisioning with **Terraform**  
 🔐 Secrets management and **DevSecOps** integration  
-☁️ **AWS-based automation** for deployment and scaling  
+☁️ **Cloud env/local-env automation** for deployment and scaling  
 
 ---
 
 ## 🎯 Goals
 
-- Build a **strong foundation** in DevOps principles  
-- Document hands-on work in a **clear and reproducible** format  
-- Prepare for **real-world DevOps Engineer interviews**  
+- Build a **strong foundation** in DevOps principles through both **local (Vagrant-based)** and **cloud (AWS-based)** environments  
+- Learn how to **design, automate, and stabilize CI/CD architectures** for scalable deployments  
+- Practice creating **fully automated test and deployment pipelines**, from Vagrant CI/CD labs to cloud-native implementations  
+- Document hands-on experiments in a **clear, reproducible format** for continuous improvement  
+- Prepare for **real-world DevOps Engineer interviews** and build a practical project portfolio  
 - Work toward certifications such as:
-  - 🧾 AWS Developer / DevOps Engineer Professional  
-  - ☸️ CKAD (Certified Kubernetes Application Developer)  
-
+  - 🧾 **AWS Developer / DevOps Engineer Professional**
+  - ☸️ **CKAD (Certified Kubernetes Application Developer)**
+  
 ---
 
 ## 🔧 Tools & Tech Stack
@@ -46,6 +48,7 @@ This portfolio includes:
 | **CI/CD** | GitHub Actions, Jenkins, AWS CodePipeline |
 | **IaC (Infrastructure as Code)** | Terraform, Ansible, AWS CloudFormation |
 | **Monitoring / Logging** | Prometheus, Grafana, CloudWatch |
+| **Code Quality / Analysis** | SonarQube, SonarCloud |
 | **Cloud Platform** | AWS |
 
 ---
@@ -77,9 +80,9 @@ Folders or files labeled **`lecture`** represent implementations where the same 
 from the course were **replicated and customized** for personal study and experimentation.
 
 > ⚠️ **Important:**  
-> The source code under `src/` used in the original course is **not included here** due to copyright and ownership restrictions.  
+> The source code under each folder `lecture/src/` used in the original course is **not included here** due to copyright and ownership restrictions.  
 > If you want to refer to the original project, please visit:  
 > 🔗 [https://github.com/hkhcoder/vprofile-project](https://github.com/hkhcoder/vprofile-project)
 
-All other configurations, automation scripts, and documentation in this repository are **written by me (me)**  
+All other configurations, automation scripts, and documentation in this repository are **written by me (Yongsuk Cho)**  
 for personal learning, practice, and DevOps portfolio purposes.
